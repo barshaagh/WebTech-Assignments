@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        tr:nth-child(even):hover {
+            background-color:  rgb(255, 220, 107);
+         }
+  
+        tr:nth-child(odd):hover{
+            background-color:rgb(160, 220, 220);
+        }
+    </style>
+</head>
+<body>
+
+    <ul type="square">
+        <li>Cryptography</li>
+        <li>DAA</li>
+        <li>Simulation</li>
+        <li>SAD</li>
+        <li>WebTech</li>
+    </ul>
+
+    <table border="1" back>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Phone</th>
+        </tr>
+
+        <tr>
+            <td>1001</td>
+            <td>Barsha Ghimire</td>
+            <td>Bagbazar</td>
+            <td>9800000000</td>
+        </tr>
+
+        <tr>
+            <td>1001</td>
+            <td>Ghimire Barsha</td>
+            <td>Bagbazar</td>
+            <td>9800000000</td>
+        </tr>
+
+        <tr>
+            <td>1001</td>
+            <td>BarshaGh</td>
+            <td>Bagbazar</td>
+            <td>9800000000</td>
+        </tr>
+    </table>
+
+</body>
+</html>
