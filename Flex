@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+        form{
+            width: 500px;
+            border: 1px solid hotpink;
+            margin-left: 30% ;
+            margin-top: 20%;
+            padding: 10px;
+        }
+        .form-element{
+            display: flex;
+            margin-bottom: 5px;
+        }
+        .form-element label{
+            flex: 0 0 120px;
+            text-align: left;
+            margin-right: 10px;
+        }
+        #submit_btn{
+            background-color: rgb(237, 237, 112);
+            padding: 3px;
+            position: absolute;
+            border-radius: 15px;
+            margin-left: 219px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="">
+        <div class="form-element">
+            <label>First Name</label>
+            <input type="text" name="First_name" id="First_name"/>
+        </div>
+        <div class="form-element">
+            <label>Last Name</label>
+            <input type="text" name="Last_name" id="Last_name"/>
+        </div>
+        <div class="form-element">
+            <label>Email</label>
+            <input type="email" name="email" id="email"/>
+        </div>
+        <div class="form-element">
+            <label>Password</label>
+            <input type="password" name="password" id="password"/>
+        </div>
+        <div class="form-element">
+            <label>Gender</label>
+            <input type="radio"  name="Gender" value="Male"/>Male
+            <input type="radio" name="Gender" value="Female"/>Female
+        </div>
+        <div class="form-element">
+            <label>Education</label>
+            <input type="checkbox"  name="l1" value="see"/>SEE
+            <input type="checkbox" name="l2" value="plus2"/>+2
+            <input type="checkbox" name="l3" value="bachelors"/>Bachelors
+            <input type="checkbox" name="l4" value="masters"/>Masters
+        </div>
+        <div class="form-element">
+            <label>Zone</label>
+            <select>
+                <option value="Bagmati">Bagmati Pradesh</option>
+                <option value="Gandaki">Gandaki Pradesh</option>
+            </select>
+        </div>
+        <div class="form-element">
+            <input type="submit" value="Register" name="submit_btn" id="submit_btn">
+        </div>
+    </form>
+</body>
+</html>
