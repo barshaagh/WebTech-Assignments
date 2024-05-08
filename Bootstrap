@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap\css\bootstrap.css">
+    <script src="Bootstrap\js\bootstrap.js"></script>
+</head>
+<body>
+    
+    <div class="jumbotron text-center">
+        <h1 class="alert-danger">BARSHA GHIMIRE</h1><br>
+        <p class="alert-warning">Resize this responsive page to see the effect</p>
+    </div>
+      
+    <div class="container alert-success" >
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Column 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur et cum alias perspiciatis nihil laboriosam hic quis. Sint, molestias ex delectus hic incidunt dicta deserunt soluta. Corporis, obcaecati laboriosam.</p>
+          </div>
+
+          <div class="col-sm-4">
+            <h3>Column 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sequi aliquam totam ut iure ipsa, praesentium voluptates quae, fugiat asperiores voluptate vero accusamus hic nemo earum, temporibus laboriosam laborum deserunt.</p>
+          </div>
+
+          <div class="col-sm-4">
+            <h3>Column 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut facilis debitis, quam at tenetur dolore ducimus animi? Iusto aut ipsa delectus tempore cupiditate eos alias sunt veritatis illo, dolore ipsam.</p>
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>
