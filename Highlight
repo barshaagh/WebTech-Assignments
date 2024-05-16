@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight Keyword</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+        #input{
+            margin-top: 20px;
+        }
+        #paragraph{
+            margin-top: 30px;
+            width: 250px;
+            text-align: justify;
+        }
+    </style>
+    <script>
+        function highlightKeyword() {
+            const keyword = document.getElementById("keyword").value;
+            const paragraph = document.getElementById("paragraph");
+            const text = paragraph.textContent || paragraph.innerText;
+
+            const regex = new RegExp(`(${keyword})`, 'gi');
+
+            const highlightedText = text.replace(regex, '<span class="highlight">$1</span>');
+
+            paragraph.innerHTML = highlightedText;
+        }
+    </script>
+</head>
+<body>
+    <label for="keyword">Enter any word from the paragraph below : </label>
+    
+    <div id="input">
+        <input type="text" id="keyword">
+        <button onclick="highlightKeyword()">Search</button>
+    </div>
+    <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis nulla minus in delectus officia beatae quas officiis dolores. Reiciendis harum consequatur adipisci, beatae quaerat veniam nisi rem esse qui.       
+    </p>
+</body>
+</html>
